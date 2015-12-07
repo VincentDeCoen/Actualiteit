@@ -3,15 +3,21 @@
 
 ## Git Commando's
 -----------------
-|||
-|||
-|||
 
+|Commando|Beschrijving|
+|-------|-----------|
+|git clone --config core.autocrlf=input git@bitbucket.org:BITBUCKET_USERNAME/REPO.git|Clone de git repo naar je lokale omgeving|
+|||
+|||
+|||
+|||
+|||
+|||
 
 ## Vagrant Commando's
 ---------------------
 
-|Command|Description|
+|Commando|Beschrijving|
 |-------|-----------|
 |vagrant status|Geeft een overzicht van de Vagrant-omgeving|
 |vagrant up [VM]|Start de VM op|
@@ -21,3 +27,10 @@
 |vagrant reload [VM]|Herstart VM|
 |vagrant destroy -f [VM]|Vernietig VM|
 
+## Algemene Commando's
+-------------
+
+|Commando|Beschrijving|
+|-------|-----------|
+|[in home dir van de repo] ./scripts/role-deps.sh|Dit voegt de te installeren ansible rollen toe aan je lokale repo|
+|[in windows cmd van de host] nslookup linuxlab.lan 192.168.56.10|Doet een NSLookup bij de DNS. linuxlab.lan is het domein en het ip adres is van de DNS server|
