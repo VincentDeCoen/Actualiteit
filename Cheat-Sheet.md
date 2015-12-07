@@ -7,12 +7,6 @@
 |Commando|Beschrijving|
 |-------|-----------|
 |git clone --config core.autocrlf=input git@bitbucket.org:BITBUCKET_USERNAME/REPO.git|Clone de git repo naar je lokale omgeving|
-|||
-|||
-|||
-|||
-|||
-|||
 
 ## Vagrant Commando's
 ---------------------
@@ -48,6 +42,9 @@
 |-------|-----------|
 |[in home dir van de repo] ./scripts/role-deps.sh|Dit voegt de te installeren ansible rollen toe aan je lokale repo|
 |[in windows cmd van de host] nslookup linuxlab.lan 192.168.56.10|Doet een NSLookup bij de DNS. linuxlab.lan is het domein en het ip adres is van de DNS server|
+|dig @192.168.56.42 butterfree.cynalco.com|Op de DNS server een dig commando uitvoeren naar de host met alias 'butterfree' in domein 'cynalco.com'|
+|[in VM] sudo /vagrant/test/runbats.sh|De acceptatietesten van de host uitvoeren|
+|[in VM] sudo loadkeys be-latin1|In de VM de keyboardinstellingen van qwerty naar azerty veranderen|
 
 ## Firewall Commando's
 |Commando|Beschrijving|
@@ -55,4 +52,5 @@
 |sudo systemctl start firewalld.service|De firewall activeren|
 |firewall-cmd --state|De status controlleren|
 |firewall-cmd --reload|De service herladen|
+|sudo firewall-cmd --add-service=dns|In de VM een service toelaten bij de firewall (hier dns)|
 
