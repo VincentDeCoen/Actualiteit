@@ -27,6 +27,8 @@
 |vagrant reload [VM]|Herstart VM|
 |vagrant destroy -f [VM]|Vernietig VM|
 
+## Ansible Vault Commando's
+
 |Commando|Beschrijving|
 |--------|------------|
 |ansible-vault create foo.yml|Een geëncrypteerd bestand aanmaken|
