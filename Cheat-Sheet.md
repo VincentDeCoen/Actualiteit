@@ -34,7 +34,7 @@
 |ansible-vault create foo.yml|Een geëncrypteerd bestand aanmaken|
 |ansible-vault edit foo.yml|Een geëncrypteerd bestand aanpassen|
 |ansible-vault encrypt foo.yml|Een bestand encrypteren|
-|ansible-vault encrypt foo.yml||
+|ansible-vault rekey foo.yml|Authenticatie van een geëncrypteerd bestand vernieuwen|
 |ansible-vault decrypt foo.yml|Een bestand decrypteren|
 |ansible-vault view foo.yml|De inhoud van een geëncrypteerd bestand weergeven|
 |ansible-playbook site.yml --ask-vault-pass foo.yml|Ansible playbook met geëncrypteerde bestanden uitvoeren|
