@@ -54,4 +54,5 @@
 |--------|-----------|
 |sudo systemctl start firewalld.service|De firewall activeren|
 |firewall-cmd --state|De status controlleren|
+|firewall-cmd --reload|De service herladen|
 
