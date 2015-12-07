@@ -28,6 +28,7 @@
 |vagrant destroy -f [VM]|Vernietig VM|
 
 ## Ansible Vault Commando's
+----------------------------
 
 |Commando|Beschrijving|
 |--------|------------|
@@ -41,9 +42,16 @@
 
 
 ## Algemene Commando's
--------------
+------------------------
 
 |Commando|Beschrijving|
 |-------|-----------|
 |[in home dir van de repo] ./scripts/role-deps.sh|Dit voegt de te installeren ansible rollen toe aan je lokale repo|
 |[in windows cmd van de host] nslookup linuxlab.lan 192.168.56.10|Doet een NSLookup bij de DNS. linuxlab.lan is het domein en het ip adres is van de DNS server|
+
+## Firewall Commando's
+|Commando|Beschrijving|
+|--------|-----------|
+|sudo systemctl start firewalld.service|De firewall activeren|
+|firewall-cmd --state|De status controlleren|
+
