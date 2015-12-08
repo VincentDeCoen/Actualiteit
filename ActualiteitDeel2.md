@@ -34,6 +34,7 @@ Niet alleen passwoorden kunnen worden geëncrypteerd maar ook volledige ansible 
 #####3. Toepassing op een labo uit de cursus Enterprise Linux
 
 1. Centos VM opstarten
+2. ```vagrant ssh [VMNaam]``` 
 2. Naar de Home directory van ansible gaan
 3. ```sudo ansible-playbook -i host_vars site.yml --ask-vault-pass```
 
